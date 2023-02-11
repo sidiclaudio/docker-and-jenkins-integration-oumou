@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer="Your Awesome Teacher" 
+LABEL maintainer="Your Awesome Teacher claudio" 
 
 RUN yum -y update && yum clean all
 
