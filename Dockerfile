@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer="Sunday is the new maintainer" 
+LABEL maintainer="Fabrice is the new maintainer" 
 
 RUN yum -y update && yum clean all
 
