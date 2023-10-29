@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer="Fabrice is the new maintainer" 
+LABEL maintainer="cloudspace" 
 
 RUN yum -y update && yum clean all
 
